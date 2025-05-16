@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+  <header>
+    <div class="top-section">
+      <img src="images/GoldenMapleGroveLogo.png" alt="Logo" class="logo">
+      <div class="top-icons">
+        <a href="Profile.html">
+          <img src="images/account-avatar-man-svgrepo-com.svg" alt="Account">
+        </a>
+        <a href="Shopping-Kart.html">
+          <img src="images/shopping-cart-white-icon.svg" alt="My Cart">
+        </a>
+      </div>
+      <nav class="top-nav">
+        <a href="Contact-Us!.html">Contact Us!</a>
+        <a href="Privacy-Policy.html">Privacy Policy</a>
+        <input type="text" placeholder="Search...">
+        <img src="images/search-logo.png" alt="Search...">
+        <a href="Profile.html">
+          <img src="images/account-avatar-man-svgrepo-com.svg" alt="Account" class="Account">
+        </a>
+        <a href="Shopping-Kart.html">
+          <img src="images/shopping-cart-white-icon.svg" alt="My Cart" class="Shopping-Kart-Image">
+        </a>
+      </nav>
+    </div>
+  
+    <div class="hamburger" onclick="toggleNav()">
+      <hr>
+      <hr>
+      <hr>
+    </div>
+  
+    <div class="toggle-nav">
+      <input type="text" placeholder="Search...">
+      <a href="Contact-Us!.html">Contact Us!</a>
+      <a href="Privacy-Policy.html">Privacy Policy</a>
+      <a href="Online-Store.html">Online Store</a>
+      <a href="Bulk-Order.html">Bulk Order</a>
+      <a href="About-Us.html">About Us</a>
+      <a href="Store-Locator.html">Store Locator</a>
+      <a href="Gift-Set.html">Gift Set</a>
+    </div>
+  
+    <div class="bottom-section">
+      <nav class="bottom-nav">
+        <a href="Online-Store.html">Online Store</a>
+        <a href="Bulk-Order.html">Bulk Order</a>
+        <a href="About-Us.html">About Us</a>
+        <a href="Store-Locator.html">Store Locator</a>
+        <a href="Gift-Set.html">Gift Set</a>
+      </nav>
+    </div>
+  </header>
+    <main class="Account">
+        <section class="Login">
+            <h2>My Account</h2>
+            <form>
+                <label for="username">Username or Email Address:</label>
+                <input type="text" id="username" name="username">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+                <button type="submit">Login</button>
+            </form>
+        </section>
+        <section class="Register">
+            <h2>Don't Have an Account? Register Here!</h2>
+            <form>
+                <label for="register-username">Username</label>
+                <input type="text" id="register-username" name="username">
+                <label for="register-email">Email</label>
+                <input type="email" id="register-email" name="Email">
+                <label for="register-password">Password</label>
+                <input type="Password" id="register-password" name="password">
+                <button type="submit">Create</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
